@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// #demo{
+//     width: 100%;
+//     height: 100px;
+//     background-color: red;
+//     position: relative;
+// }
+
+// #demo::after{
+//     content: '';
+//     position: absolute;
+//     width: 30px;
+//     height: 30px;
+//     background-color: red;
+//     bottom: -25px;
+//     left: 50%;
+//     transform: translateX(-50%);
+//     clip-path: polygon(0 0, 50% 100%, 100% 0);
+// }
+
+// #photo{
+//     background-image: url(https://media.istockphoto.com/photos/abstract-technology-dotted-digital-wave-background-picture-id1299187436?b=1&k=20&m=1299187436&s=170667a&w=0&h=izqNihZlWl36_V5LekteIU1sFFJc6DUcpDIskNfJlBg=);
+//     background-position: center;
+//     background-size: cover;
+//     padding: 15rem 0; 
+//     text-align: center;
+//     margin-bottom: 100px;
+//     clip-path: polygon(0 0, 100% 1%, 100% 60%, 0% 100%);
+
+// }
+
+
+// .main{
+//     position: relative;
+//     &::before{
+//         content: '';
+//         position: absolute;
+//         bottom: 0;
+//         left: 0;
+//         width: 0;
+//         height: 2px;
+//         background-color: red;
+//         transition: .5s;
+//     }
+//     &::after{
+//         content: '';
+//         position: absolute;
+//         bottom: 0;
+//         right: 0;
+//         width: 0;
+//         height: 2px;
+//         background-color: red;
+//         transition: .5s;
+//     }
+//     &:hover{
+//         &::before,&::after{
+//             width: 50%;
+//         }
+//     }
+// }
+
+
+
+// .btn{
+//     background-color: transparent;
+//     color: purple;
+//     border: 1px solid purple;
+//     padding: 15px 60px;
+//     position: relative;
+//     z-index: 1;
+//     transition: .5s;
+//     &::before{
+//         content: '';
+//         position: absolute;
+//         bottom: 0;
+//         left: 0;
+//         width: 150%;
+//         height: 0;
+//         background-color: purple;
+//         transition: .5s;
+//         z-index: -1;
+//         clip-path: circle(50% at 50% 50%);
+//     }
+
+//     &:hover{
+//         color: #fff;
+//         &::before{
+//             height: 10%;
+//         }
+//     }
+// }
+
+// .all{
+//     display: flex;
+//     justify-content: space-between;
+//     .box{
+//         width: 30%;
+//         position: relative;
+//         clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+//         &::before{
+//             content: 'WELCOME';
+//             position: absolute;
+//             left: 0;
+//             top: 0;
+//             width: 100%;
+//             height: 100%;
+//             background-color: purple;
+//             transition: .6s;
+//             opacity: 1;
+//             clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+//         }
+        
+//         &:hover{
+//             &::before{
+//               transform: scale(1); 
+//               opacity: 0;
+//             }
+//         }
+
+//         img{
+//             width: 100%;
+//             vertical-align: bottom;
+//         }
+//     }
+// }
+
+
+// #first{
+//     width: 40%;
+//     padding: 50px 0;
+//     border-radius: 10px;
+//     text-align: center;
+//     margin: 160px auto;
+//     border: 1px solid #fff;
+//     backdrop-filter: blur(12px) saturate(200%);
+//     -webkit-backdrop-filter: blur(12px) saturate(200%);
+//     background-color: rgba(17, 25, 40, 0.57);
+//     border-radius: 12px;
+//     border: 1px solid rgba(255, 255, 255, 0.125);
+// }
+
+// body{
+//     background-image: url(https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&w=1000&q=80);
+//     background-position: center;
+//     background-size: cover;
+// }
+
+
+// col-12
+// col-sm-12
+// col-md-12
+// col-lg-12
+
+// .all{
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: space-between;
+//     .box{
+//         width: 23%;
+//         margin-top: 30px;
+//         position: relative;
+        
+//         img{
+//             width: 100%;
+//         }
+//     }
+// }
+
+
+// .box{
+//     position: relative;
+//     .overlay{
+//         position: absolute;
+//         z-index: 1;
+//         top: 0;
+//         left: 0;
+//         width: 100%;
+//         height: 100%;
+//         background-image: radial-gradient(#b92b27,#1565C0);
+//         opacity: 0;
+//         transition: .5s;
+//     }
+//     &:hover{
+//         .overlay {
+//             opacity: 1;
+//         }
+//     }
+//     .box-text{
+//         position: absolute;
+//         bottom: 0px;
+//         left: 20px;
+//     }
+//     .box-icon{
+//         position: absolute;
+//         top: 10px;
+//         left: 20px;
+//         img{
+//             width: 30px;
+//         }
+//     }
+// }
+
+// #demo{
+//     width: 200px;
+//     height: 200px;
+//     background-color: red;
+//     animation: div 7s linear infinite;
+// }
+
+
+
+
+@keyframes div{
+    0%{
+        width: 200px;
+    }
+    50%{
+        width: 100%;
+    }
+    100%{
+        width: 200px;
+    }
+}
+
+
+
+// @media(max-width:576px) { 
+//     .box{
+//         width: 100% !important;
+//     }
+// }
+
+// @media (min-width:576px) and (max-width:768px) {
+//     .box{
+//         width: 48% !important;
+//     }
+// }
+
+// @media (min-width:768px) and (max-width:992px) {
+//     .box{
+//         width: calc(100%/3) !important;
+//     }
+// }

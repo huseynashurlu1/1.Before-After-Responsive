@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@-webkit-keyframes div {
+  0% {
+    width: 200px;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 200px;
+  }
+}
+
+@keyframes div {
+  0% {
+    width: 200px;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 200px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
